@@ -6,7 +6,7 @@ const default_state = 0;
 // Puedes suscribirte manualmente a los cambios, o conectar tu vista
 // directamente
 store.subscribe(() => {
-    console.log(store.getState())
+    console.log(store.getState());
 });
 
 // La única forma de modificar el estado interno es despachando acciones.
