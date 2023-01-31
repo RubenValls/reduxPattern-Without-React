@@ -1,0 +1,13 @@
+#nav{
+    background-image: url(https://cutewallpaper.org/27/binary-code-wallpaper-gif/pin-on-animated-gifs.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    position: fixed;
+    height: 3.5rem;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
