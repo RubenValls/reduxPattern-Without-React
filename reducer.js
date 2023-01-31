@@ -11,7 +11,9 @@
  * En este ejemplo, usamos `switch` y strings, pero puedes usar cualquier forma
  * que desees si tiene sentido para tu proyecto.
  */
-export function counter(state = 0, action) {
+const default_state = 3;
+
+export function counter(state = default_state, action) {
     switch (action.type) {
     case 'ADD':
         return state + action.number;

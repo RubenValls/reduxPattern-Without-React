@@ -1,8 +1,6 @@
 import store from './store.js';
 import { add, reduce } from './actions.js';
 
-const default_state = 0;
-
 // Puedes suscribirte manualmente a los cambios, o conectar tu vista
 // directamente
 store.subscribe(() => {
