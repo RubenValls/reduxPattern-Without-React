@@ -9,11 +9,13 @@ store.subscribe(() => {
     console.log(store.getState());
 });
 
+
+const numberAddReduce = 8;
 // La única forma de modificar el estado interno es despachando acciones.
 // Las acciones pueden ser serializadas, registradas o almacenadas luego para
 // volver a ejecutarlas.
-store.dispatch(add(3));
+store.dispatch(add(numberAddReduce));
 
-store.dispatch(reduce(1));
+store.dispatch(reduce(numberAddReduce));
 
-store.dispatch(add(7));
+store.dispatch(add(numberAddReduce));
